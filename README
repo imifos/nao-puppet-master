@@ -1,0 +1,37 @@
+The NAO Puppet Master (PUMA) allows you to control the NAO Robot using input devices like joysticks and game pads. 
+
+You can make NAO say predefined or manually specified texts. It's possible to execute complex behaviors and as well to command the robot like a puppet.
+
+
+Project Status:
+--------------
+The project is in a early alpha state and completely work-in-progress. The framework is (mostly) done and some NAO operations  as well. 
+
+I'm currently working with a Saitek X52 Pro device for input. 
+
+
+The application is built in 3 parts:
+------------------------------------
+1) A behavior that allows to run complex operations and which is remote-controlled by the server. The behavior runs on the robot and uses Choregraphe scripting and Python. The current version just "says" the requested operations in order to avoid NAO hopping around during development.
+
+2) A TCP/IP server that acts as proxy between the regular MFC Windows application and the NAO robot. It is written in 'flat' C++ and built using the qiBuild framework. The commands are text-based, so you can use a telnet application instead of the MFC client to test. 
+
+3) An MFC C++ application managing the interface with the user, the PUMA server and the gaming devices.
+
+
+Note:
+-----
+The project shows different approaches like making 'qibuild' projects, accessing the NAO using C++, reading joysticks, controling Choregraphe/Python behaviors remotely etc. It can serve as inspiration for other NAO developers. The server can easily be re-used to work in other projects.
+
+
+License:
+--------
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+A copy of the GNU General Public License can be found here: http://www.gnu.org/licenses/.
+
+Author: Tasha CARL, 2012, http://lucubratory.eu

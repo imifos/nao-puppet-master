@@ -1,0 +1,31 @@
+﻿Build started 8/04/2012 19:25:48.
+     1>Project "E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\test_nao-puppetmaster-server.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/dev/workspaces/qibuild/nao-puppetmaster-server/CMakeLists.txt
+         CMake does not need to re-run because E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         O:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/dev/sdk/naoqi-sdk-1.12.2.2-win32-vs2010/include" /I"E:/dev/sdk/naoqi-sdk-1.12.2.2-win32-vs2010/include/soap" /I"E:/dev/sdk/naoqi-sdk-1.12.2.2-win32-vs2010/include/alsoap" /I"e:/dev/sdk/naoqi-sdk-1.12.2.2-win32-vs2010/include" /I"e:/dev/sdk/naoqi-sdk-1.12.2.2-win32-vs2010/include/zmq" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_nao-puppetmaster-server.dir\Debug\\" /Fd"E:/dev/workspaces/qibuild/nao-puppetmaster-server/build-win32-vs2010/sdk/bin/test_nao-puppetmaster-server_d.pdb" /Gd /TP /analyze- /errorReport:prompt "E:\dev\workspaces\qibuild\nao-puppetmaster-server\test.cpp"  /Zm1000 
+         test.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest.res" test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d_manifest.rc 
+       Link:
+         O:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\sdk\bin\test_nao-puppetmaster-server_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/lib" /LIBPATH:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\sdk\bin\test_nao-puppetmaster-server_d.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/build-win32-vs2010/Debug/test_nao-puppetmaster-server_d.lib" /MACHINE:X86 "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest.res"
+         "test_nao-puppetmaster-server.dir\Debug\test.obj"  /machine:X86 /debug 
+       Manifest:
+         Deleting file "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest" /manifest "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest.res" test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d_manifest.rc 
+       LinkEmbedManifest:
+         O:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\sdk\bin\test_nao-puppetmaster-server_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/lib" /LIBPATH:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\sdk\bin\test_nao-puppetmaster-server_d.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/dev/workspaces/qibuild/nao-puppetmaster-server/build-win32-vs2010/Debug/test_nao-puppetmaster-server_d.lib" /MACHINE:X86 "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server_d.exe.embed.manifest.res"
+         "test_nao-puppetmaster-server.dir\Debug\test.obj"  /machine:X86 /debug 
+         test_nao-puppetmaster-server.vcxproj -> E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\sdk\bin\test_nao-puppetmaster-server_d.exe
+       FinalizeBuildStatus:
+         Deleting file "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server.unsuccessfulbuild".
+         Touching "test_nao-puppetmaster-server.dir\Debug\test_nao-puppetmaster-server.lastbuildstate".
+     1>Done Building Project "E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\test_nao-puppetmaster-server.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

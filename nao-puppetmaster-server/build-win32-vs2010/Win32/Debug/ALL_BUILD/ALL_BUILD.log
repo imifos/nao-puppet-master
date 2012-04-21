@@ -1,0 +1,16 @@
+﻿Build started 8/04/2012 19:25:50.
+     1>Project "E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\ALL_BUILD.vcxproj" on node 6 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Build all projects
+         Building Custom Rule E:/dev/workspaces/qibuild/nao-puppetmaster-server/CMakeLists.txt
+         CMake does not need to re-run because E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\CMakeFiles\generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild".
+         Touching "Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "E:\dev\workspaces\qibuild\nao-puppetmaster-server\build-win32-vs2010\ALL_BUILD.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13
